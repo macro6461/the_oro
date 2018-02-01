@@ -1,0 +1,39 @@
+TABLE{
+  border-collapse: collapse;
+  border: none;
+  WIDTH: 90%;
+}
+
+#tableHeader{
+  font-size: 2vw;
+  text-align: left;
+  border: none;
+  padding: 4%;
+}
+
+TH{
+
+  border: none;
+}
+
+
+TD{
+  border: solid 1px gold;
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  padding-top: 0px;
+  padding-left: 1%;
+  padding-bottom: 8%;
+}
+
+#right-arrow{
+margin-left: 1%;
+  width: 2%;
+  transform: rotate(180deg);
+}
+
+#left-arrow{
+margin-left: 2%;
+  width: 2%;
+}

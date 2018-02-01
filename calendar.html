@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>ORO CALENDAR</title>
+<!---STYLESHEETS--->
+    <link rel="stylesheet" type="text/css" href="css/screen.css">
+    <!---MOBILE STYLESHEET--->
+    <link rel="stylesheet" media="screen and (max-device-width: 499px)" type="text/css" href="css/mobile.css">
+
+    <script type="text/javascript" src="js/calendar.js"></script>
+
+</head>
+
+<body onLoad="fillYears(); populateTable(document.dateChooser)">
+
+<table ID="calendarTable" BORDER=1 ALIGN="center">
+<tr>
+
+    <th ID="tableHeader" COLSPAN=7>
+    </th>
+
+
+</tr>
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th>
+<th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<form NAME="dateChooser">
+    <select NAME="chooseMonth"
+    onChange="populateTable(this.form)">
+    <option selected>JAN<option>FEB
+    <option>MAR<option>APR<option>MAY
+    <option>JUN<option>JUL<option>AUG
+    <option>SEP<option>OCT
+    <option>NOV<option>DEC
+</select>
+<select NAME="chooseYear" onChange="populateTable(this.form)">
+</select>
+<tbody ID="tableBody"></tbody>
+<tr>
+
+
+    </form>
+
+</tr>
+</table>
+</body>
+</html>
