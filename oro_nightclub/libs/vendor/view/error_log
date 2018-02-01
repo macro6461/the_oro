@@ -1,0 +1,1 @@
+[30-Jan-2018 06:05:01 UTC] PHP Fatal error:  Class 'mvc\session\sessionClass' not found in /home/mptechnosuite/public_html/dev/oro_nightclub/libs/vendor/view/messageError.php on line 4

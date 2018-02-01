@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 4, 2017, 10:46:44 AM
+    Author     : alpachino
+*/
+#mvcMain {
+    display: none;
+}
+
+#mvcIcon {
+    display: block;
+}
+
+.shfDevelopmentBar {
+    background-color: #c39001;
+    position: fixed;
+    right: 0px;
+    color: #ffffff;
+
+    z-index: 2147483647;
+    padding: 3px 3px 3px 5px;
+    border-radius: 0px 0px 0px 5px;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 2px rgba(20, 20, 20, 1);
+    top: 0px;
+}
+.shfDevelopmentBar > a {
+    color: #ffffff;
+}
+
+.mvcPointer {
+    cursor: pointer;
+}
+
+
+
+/*--------------------------------------------------
+    [9. Back To Top]
+----------------------------------------------------*/
+#topcontrol {
+    color: #fff;
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: #222;
+    position: relative;
+    right: 14px !important;
+    bottom: 11px !important;
+    border-radius: 3px !important;
+}
+
+#topcontrol:after {
+    top: 4px;
+    left: 11px;
+    content: "\f139";
+    position: absolute;
+    text-align: center;
+    font-family: FontAwesome;
+}
+
+#topcontrol:hover {
+    color: #fff;
+    background: #719038;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+

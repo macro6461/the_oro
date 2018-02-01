@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 19, 2018, 11:43:37 AM
+    Author     : drackow
+*/
+
+#cd-menu-trigger {
+    position: absolute;
+    left: 45px;
+    top: 0;
+    height: 100%;
+    width: 50px;
+}
+
+.container-m-60 {
+    left: 40%;
+}
+.logo-2 {
+    padding: 10px 0 10px 0;
+
+}
+.logo-img {
+    height: 100px;
+}
+/*header{
+    background-color: #ddd;
+    border-bottom: solid #bf8d03;
+}*/
+
+footer{
+    color: #fff;
+    background-color: #27292d;
+}
+.footer-2-copy-cont{
+    border-top: solid #bf8d03;
+}
+a{
+    color: #bf8d03 !important;
+
+}
+
+.tp-caption.dark-black-60 {
+    color: #f5f5f5;
+    background-color: #c38f02;
+}
+hr{
+    border-top: 2px solid #c38f02;
+    margin: 22px 0 22px 10%;
+    width: 80%;
+}
+
+.header-1 #main-menu .navbar .nav > li.current > a {
+    padding: 18px 18px 18px 18px;
+    border: 2px solid rgb(195, 142, 2);
+    color: #4b4e53;
+
+}
+
+#main-menu .navbar .nav > li > a {
+    margin: 25px 12px 17px 12px !important;
+    border-bottom: 2px solid rgba(45,78,83,0);
+    color: #fff !important;
+    letter-spacing: 2px;
+    background-color: #c38f02;
+}
+
+.floatMenu_calendar {
+    background-color: white;
+    padding: 4%;
+}
+
+.floatMenu_calendar:hover {
+    background-color: #c38f02;
+    padding: 4%;
+
+}
+
+.floatMenu_calendar>a:hover {
+    color: #c38f02 !important;
+}
+
+.floatMenu_tickets {
+    background-color: #c38f02;
+    padding: 4%;
+}
+
+.floatMenu_tickets > a {
+    color: #fff !important;
+}
+
+.floatMenu_tickets:hover {
+    background-color: #fff;
+    padding: 4%;
+}
+
+.floatMenu_tickets>a:hover {
+    color: #c38f02 !important;
+}
+
+.floatMenu {
+    border-top: 1px solid #c38f02;
+}
+
+.calendarLeftBar {
+    background-color: #c39001;
+    position: fixed;
+    left: -62px;
+    z-index: 2147483647;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px 0px 0px 5px;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px rgba(20, 20, 20, 1);
+    top: 200px;
+    transform: rotate(90deg);
+}
+
+.calendarLeftBar > a{
+    color: #fff !important;
+}
+
+.calendarLeftBar:hover {
+    background-color: #fff;
+}
+
+.calendarLeftBar>a:hover{
+    color: #c38f02 !important;
+}
+
+#calendar {
+    /* 		float: right; */
+    margin: 0 auto;
+    width: 900px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px #C3C3C3;
+    -webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.18);
+}
+
+
+.nav-trigger-map {
+    position: absolute;
+    right: 25px;
+    top: 40px;
+    height: 100%;
+    width: 50px;
+}
+
+.nav-trigger-phone {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    height: 100%;
+    width: 40px;
+}
+/*.tp-caption.dark-light-100{
+    color: #bf8d03;
+
+}
+.tp-caption.dark-black-100{
+    color: #bf8d03;
+
+}
+
+.tp-caption.dark-light-32 {
+    color: #4b4e53;
+    background-color: #fff;
+    padding: 5px !important;
+}
+.tp-caption.dark-light-61{
+    color: #bf8d03;
+    background-color: #fff;
+    padding: 10px !important;
+}
+
+.tp-caption.dark-light-54{
+    color: #bf8d03;
+    background-color: #fff;
+    padding: 10px !important;
+}
+
+.tp-caption.dark-black-63 {
+    color: #4b4e53;
+    background-color: #fff;
+    padding: 20px !important;
+}*/
+

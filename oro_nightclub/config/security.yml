@@ -1,0 +1,59 @@
+shfSecurity:
+  index:
+    security: false
+  setAccount:
+    security: false  
+  login:
+    security: false
+  recovery:
+    security: false  
+  logout:
+    security: true
+  noPermission:
+    security: false
+  exception:
+    security: false
+
+homepage:
+  init:
+    security: false   
+   
+default:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin, Agent]
+  init:
+    security: true   
+    
+usuario:
+  index:
+    security: true
+    credentials:
+      - [root, superuser, admin]
+  ajax:
+    security: false    
+  update:
+    security: true 
+  delete:
+    security: true
+  manage:
+    security: true  
+  activate:
+    security: true  
+  deactivate:
+    security: true  
+  activation:
+    security: false
+  setCredentials:
+    security: false
+  setRequest:
+    security: true  
+
+      
+
+    
+      
+ 
+ 
+    

@@ -1,0 +1,377 @@
+homepage:
+  url:    /
+  param:  { module: homepage, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+contact_us:
+  url:    /contact-us
+  param:  { module: contact, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+about:
+  url:    /about
+  param:  { module: about, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php 
+    
+events:
+  url:    /events
+  param:  { module: events, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    
+gallery:
+  url:    /gallery
+  param:  { module: gallery, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+videos:
+  url:    /videos
+  param:  { module: videos, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php    
+         
+    
+dashboard:
+  url:    /dashboard
+  param:  { module: default, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+
+##-------------------------- shfSecurity --------------------------##
+shfSecurity_index:
+  url:    /signin
+  param:  { module: shfSecurity, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+shfSecurity_login:
+  url:    /login
+  param:  { module: shfSecurity, action: login, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/recordarMeBaseTableClass.php
+    - model/recordarMeTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    
+shfSecurity_recovery:
+  url:    /recovery/password
+  param:  { module: shfSecurity, action: recovery, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - model/base/recordarMeBaseTableClass.php
+    - model/recordarMeTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    
+shfSecurity_setAccount:
+  url:    /user/setAccount
+  param:  { module: shfSecurity, action: setAccount, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php    
+
+shfSecurity_logout:
+  url:    /logout
+  param:  { module: shfSecurity, action: logout, format: html }
+  load:
+    - model/base/recordarMeBaseTableClass.php
+    - model/recordarMeTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+
+shfSecurity_noPermission:
+  url:    /noPermission
+  param:  { module: shfSecurity, action: noPermission, format: html }
+
+shfSecurity_exception:
+  url:    /exception
+  param:  { module: shfSecurity, action: exception, format: html }
+##-------------------------- shfSecurity --------------------------##
+
+##-------------------------- EJEMPLO --------------------------##
+default_index:
+  url:    /dashboard/index
+  param:  { module: default, action: init, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - hooks/logHookClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+
+default_insert:
+  url:    /usuarios/insertar
+  param:  { module: default, action: insert, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_create:
+  url:    /usuarios/crear
+  param:  { module: default, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_edit:
+  url:    /usuario/editar
+  param:  { module: default, action: edit, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_update:
+  url:    /usuario/actualizar
+  param:  { module: default, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_delete:
+  url:    /usuario/eliminar
+  param:  { module: default, action: delete, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+default_deleteSelect:
+  url:    /usuario/eliminarSeleccion
+  param:  { module: default, action: deleteSelect, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+
+#default_reporte:
+#  url:    /usuario/reporte
+#  param:  { module: default, action: report, format: pdf }
+#  load:
+#    - libs/fpdf/fpdf.php
+##-------------------------- EJEMPLO --------------------------##
+##-------------------------- USUARIO --------------------------## 
+usuario_index:
+  url:    /users/manage
+  param:  { module: usuario, action: index, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    
+    
+usuario_ajax:
+  url:    /users/ajax
+  param:  { module: usuario, action: ajax, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    
+usuario_deactivate:
+  url:    /user/deactivate
+  param:  { module: usuario, action: deactivate, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php    
+
+usuario_activate:
+  url:    /user/activate
+  param:  { module: usuario, action: activate, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+
+usuario_activation:
+  url:    /user/activation
+  param:  { module: usuario, action: activation, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+#    - libs/phpmailer/PHPMailerAutoload.php
+#    - libs/phpmailer/class.phpmailer.php
+    
+usuario_invite:
+  url:    /user/invite
+  param:  { module: usuario, action: invite, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php
+    
+usuario_setcredentials:
+  url:    /user/update/credentials
+  param:  { module: usuario, action: setCredentials, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php  
+    
+usuario_setrequest:
+  url:    /user/request
+  param:  { module: usuario, action: setRequest, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php  
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php     
+    
+#usuario_insert:
+#  url:    /user/register
+#  param:  { module: usuario, action: insert, format: html }
+#  load:
+#    - model/base/usuarioBaseTableClass.php
+#    - model/usuarioTableClass.php
+#    - model/base/profileBaseTableClass.php
+#    - model/profileTableClass.php
+
+usuario_create:
+  url:    /user/create
+  param:  { module: usuario, action: create, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
+    - model/base/credencialBaseTableClass.php
+    - model/credencialTableClass.php
+    - libs/phpmailer/PHPMailerAutoload.php
+    - libs/phpmailer/class.phpmailer.php
+    - model/base/userBaseTableClass.php
+    - model/userTableClass.php
+    
+#usuario_edit:
+#  url:    /user/edit
+#  param:  { module: usuario, action: edit, format: html }
+#  load:
+#    - model/base/usuarioBaseTableClass.php
+#    - model/usuarioTableClass.php
+#    - model/base/profileBaseTableClass.php
+#    - model/profileTableClass.php
+
+usuario_update:
+  url:    /user/update
+  param:  { module: usuario, action: update, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php    
+    
+usuario_delete:
+  url:    /user/delete
+  param:  { module: usuario, action: delete, format: html }
+  load:
+    - model/base/usuarioBaseTableClass.php
+    - model/usuarioTableClass.php
+    - model/base/bitacoraBaseTableClass.php
+    - model/bitacoraTableClass.php
+    - model/base/profileBaseTableClass.php
+    - model/profileTableClass.php
+    - model/base/usuarioCredencialBaseTableClass.php
+    - model/usuarioCredencialTableClass.php
